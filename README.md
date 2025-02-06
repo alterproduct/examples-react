@@ -7,8 +7,8 @@
 
 [Live Demo](https://alterproduct.github.io/examples-react)
 
-- [Basics - Viewer Full Screen](https://alterproduct.github.io/examples-react/basics-viewer-full-screen)
-- [Basics - Viewer Styling](https://alterproduct.github.io/examples-react/basics-viewer-styling)
-- [Basics - Video 360 Product](https://alterproduct.github.io/examples-react/basics-video-360-product-loop)
-- [Advanced - Video Controls Hover](https://alterproduct.github.io/examples-react/advanced-video-controls-hover)
-- [Advanced - Product Image Gallery](https://alterproduct.github.io/examples-react/advanced-product-image-gallery)
+- [Basics - Viewer Full Screen](https://alterproduct.github.io/examples-react/#/basics-viewer-full-screen)
+- [Basics - Viewer Styling](https://alterproduct.github.io/examples-react/#/basics-viewer-styling)
+- [Basics - Video 360 Product](https://alterproduct.github.io/examples-react/#/basics-video-360-product-loop)
+- [Advanced - Video Controls Hover](https://alterproduct.github.io/examples-react/#/advanced-video-controls-hover)
+- [Advanced - Product Image Gallery](https://alterproduct.github.io/examples-react/#/advanced-product-image-gallery)
