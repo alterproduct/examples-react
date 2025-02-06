@@ -1,9 +1,4 @@
-import {
-  HashRouter as Router,
-  BrowserRouter,
-  Routes,
-  Route,
-} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 
 const Home = lazy(() => import('./home'));
