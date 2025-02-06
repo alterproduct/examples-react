@@ -30,14 +30,16 @@ jobs:
         env:
           CI: false
 
-      - name: Configure Git identity
+      # Deploy to gh-pages (included npm run build and gh-pages -d build inside)
+      - name: Deploy
         run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-
-      - name: Deploy to GitHub Pages
-        run: npm run deploy
+          git config --global user.name $user_name
+          git config --global user.email $user_email
+          git remote set-url origin https://${github_token}@github.com/${repository}
+          npm run deploy
         env:
           CI: false
-          GIT_USER: 'github-actions[bot]'
-          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+          repository: ${{ github.repository }}
