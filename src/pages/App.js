@@ -1,4 +1,9 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {
+  HashRouter as Router,
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
 import { Suspense, lazy } from 'react';
 
 const Home = lazy(() => import('./home'));
@@ -17,7 +22,7 @@ const AdvancedProductMediaGallery = lazy(() =>
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route
@@ -61,7 +66,7 @@ function App() {
           }
         ></Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
