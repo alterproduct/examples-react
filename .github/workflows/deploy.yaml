@@ -39,3 +39,5 @@ jobs:
         run: npm run deploy
         env:
           CI: false
+          GIT_USER: 'github-actions[bot]'
+          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
