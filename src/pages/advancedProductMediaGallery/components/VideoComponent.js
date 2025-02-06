@@ -79,6 +79,7 @@ const VideoComponent = ({ displayWrapperRef }) => {
         window.removeEventListener('resize', updateSize);
       };
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <div className="videoContainer" ref={videoRef} />;
