@@ -17,7 +17,7 @@ const MediaButtons = ({ responseApi, selectedPreview, setSelectedPreview }) => {
 
           {item.type === 'video' ? (
             <img
-              src={'/assets/icons/icon-play-video.svg'}
+              src={process.env.PUBLIC_URL + '/assets/icons/icon-play-video.svg'}
               alt={'Play video'}
               className="button-icon"
             />
@@ -25,7 +25,7 @@ const MediaButtons = ({ responseApi, selectedPreview, setSelectedPreview }) => {
 
           {item.type === 'viewer3D' ? (
             <img
-              src={'/assets/icons/icon-3d.svg'}
+              src={process.env.PUBLIC_URL + '/assets/icons/icon-3d.svg'}
               alt={'Open 3D Viewer'}
               className="button-icon"
             />

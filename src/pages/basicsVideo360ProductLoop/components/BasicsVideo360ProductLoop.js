@@ -16,7 +16,8 @@ const BasicsVideo360ProductLoop = () => {
       // Set poster image to be displayed before the video starts
       videoElement.setAttribute(
         'poster',
-        '/assets/video/video-360-loop-embeding-poster.png'
+        process.env.PUBLIC_URL +
+          '/assets/video/video-360-loop-embeding-poster.png'
       );
 
       // Define fixed dimensions for the video player
@@ -38,7 +39,9 @@ const BasicsVideo360ProductLoop = () => {
 
           sources: [
             {
-              src: '/assets/video/video-360-loop-embeding.webm',
+              src:
+                process.env.PUBLIC_URL +
+                '/assets/video/video-360-loop-embeding.webm',
               type: 'video/webm',
             },
           ],
