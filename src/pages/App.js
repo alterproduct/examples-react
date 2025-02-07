@@ -19,13 +19,7 @@ function App() {
   console.log(process.env.NODE_ENV);
 
   return (
-    <Router
-      basename={
-        window.location.hostname === 'alterproduct.github.io'
-          ? '/examples-react'
-          : ''
-      }
-    >
+    <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route
