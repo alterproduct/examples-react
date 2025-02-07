@@ -54,7 +54,9 @@ const VideoComponent = ({ displayWrapperRef }) => {
           preload: 'auto',
           sources: [
             {
-              src: `/assets/video/video-360-loop-embeding.webm`,
+              src:
+                process.env.PUBLIC_URL +
+                '/assets/video/video-360-loop-embeding.webm',
               type: 'video/webm',
             },
           ],
