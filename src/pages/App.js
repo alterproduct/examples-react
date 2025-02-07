@@ -16,8 +16,14 @@ const AdvancedProductMediaGallery = lazy(() =>
 );
 
 function App() {
+  console.log(process.env.NODE_ENV);
+
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router
+      basename={
+        process.env.NODE_ENV === 'development' ? '' : process.env.PUBLIC_URL
+      }
+    >
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route
