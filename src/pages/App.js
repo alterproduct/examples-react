@@ -21,7 +21,9 @@ function App() {
   return (
     <Router
       basename={
-        process.env.NODE_ENV === 'development' ? '' : process.env.PUBLIC_URL
+        window.location.hostname === 'alterproduct.github.io'
+          ? '/examples-react'
+          : ''
       }
     >
       <Routes>
