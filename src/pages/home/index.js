@@ -7,27 +7,27 @@ const Home = () => {
 
       <ul>
         <li>
-          <a href="/#/basics-viewer-full-screen">
+          <a href="/examples-react/#/basics-viewer-full-screen">
             <span>Basics</span> - Viewer Full Screen
           </a>
         </li>
         <li>
-          <a href="/#/basics-viewer-styling">
+          <a href="/examples-react/#/basics-viewer-styling">
             <span>Basics</span> - Viewer Styling
           </a>
         </li>
         <li>
-          <a href="/#/basics-video-360-product-loop">
+          <a href="/examples-react/#/basics-video-360-product-loop">
             <span>Basics</span> - Video 360 Product Loop
           </a>
         </li>
         <li>
-          <a href="/#/advanced-video-controls-hover/">
+          <a href="/examples-react/#/advanced-video-controls-hover/">
             <span>Advanced</span> - Video Controls Hover
           </a>
         </li>
         <li>
-          <a href="/#/advanced-product-media-gallery">
+          <a href="/examples-react/#/advanced-product-media-gallery">
             <span>Advanced</span> - Product Media Gallery
           </a>
         </li>
