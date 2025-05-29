@@ -16,8 +16,6 @@ const AdvancedProductMediaGallery = lazy(() =>
 );
 
 function App() {
-  console.log(process.env.NODE_ENV);
-
   return (
     <Router>
       <Routes>
