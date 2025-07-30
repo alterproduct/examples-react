@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[355],{8355:(e,r,t)=>{t.r(r),t.d(r,{default:()=>p});var a=t(579);const p=()=>(0,a.jsx)("div",{id:"wrapper",children:(0,a.jsx)("iframe",{loading:"lazy",title:"Product Customizer",src:"https://alterproduct.com/app/customizer/11",width:"100%",height:"100%",frameBorder:"0",allowFullScreen:!0})})}}]);
+//# sourceMappingURL=355.70c78cb2.chunk.js.map

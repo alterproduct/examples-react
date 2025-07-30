@@ -1,2 +1,0 @@
-*{box-sizing:border-box}#root,body,html{height:100%;margin:0;padding:0;width:100%}#root,.videoContainer{align-items:center;display:grid;justify-content:center}.videoContainer{border:1px solid silver;cursor:pointer}.videoContainer:hover{border:1px solid #000}video{background-color:#fff!important;border:none;-webkit-clip-path:inset(-10px);clip-path:inset(-10px);outline:none}.vjs-poster{background-color:initial!important}video:focus{outline:none}
-/*# sourceMappingURL=100.393ce7ae.chunk.css.map*/
